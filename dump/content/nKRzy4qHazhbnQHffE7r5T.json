@@ -1,0 +1,54 @@
+{
+   "content": {
+      "contentId": "nKRzy4qHazhbnQHffE7r5T",
+      "contentTypeId": "page",
+      "spaceId": "i9Ts255zwA2cgQgqEFETe2",
+      "createdUserId": "f9c5c74f-1811-43d6-bc97-3f0f182e940b",
+      "createdDate": "2023-09-20T16:11:53.725Z",
+      "modifiedUserId": "f9c5c74f-1811-43d6-bc97-3f0f182e940b",
+      "modifiedDate": "2023-09-20T16:26:41.821Z",
+      "status": "published",
+      "activeHistoryId": "d0b583ad-2a60-4982-8b85-753395b69ce0",
+      "publishDate": "2023-09-20T16:18:14.105Z"
+   },
+   "contentData": [
+      {
+         "contentDataId": "99c35413-f570-4a22-ac27-f444f61622e9",
+         "spaceId": "i9Ts255zwA2cgQgqEFETe2",
+         "contentId": "nKRzy4qHazhbnQHffE7r5T",
+         "contentTypeId": "page",
+         "languageId": "en",
+         "modifiedUserId": "f9c5c74f-1811-43d6-bc97-3f0f182e940b",
+         "modifiedDate": "2023-09-20T16:26:41.159Z",
+         "data": {
+            "name": "Startpage",
+            "title": "Base startpage",
+            "sections": [
+               "vYQfVGtj9fCR6WgaGsnbxd"
+            ]
+         },
+         "referencedAssets": [],
+         "status": "published",
+         "slug": "startpage",
+         "publishDate": "2023-09-20T16:18:14.299Z"
+      }
+   ],
+   "historyItems": [
+      {
+         "historyId": "d0b583ad-2a60-4982-8b85-753395b69ce0",
+         "date": "2023-09-20T16:13:46.630Z",
+         "userId": "f9c5c74f-1811-43d6-bc97-3f0f182e940b",
+         "revision": 2,
+         "changes": 1,
+         "userName": "Johan Julinder"
+      },
+      {
+         "historyId": "9cf35f93-48ec-4160-b82a-0df300d9412f",
+         "date": "2023-09-20T16:12:12.316Z",
+         "userId": "f9c5c74f-1811-43d6-bc97-3f0f182e940b",
+         "revision": 1,
+         "changes": 2,
+         "userName": "Johan Julinder"
+      }
+   ]
+}

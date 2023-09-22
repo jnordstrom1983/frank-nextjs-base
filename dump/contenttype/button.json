@@ -1,0 +1,88 @@
+{
+   "contentTypeId": "button",
+   "spaceId": "i9Ts255zwA2cgQgqEFETe2",
+   "creatorUserId": "f9c5c74f-1811-43d6-bc97-3f0f182e940b",
+   "enabled": true,
+   "fields": [
+      {
+         "fieldId": "text",
+         "name": "Text",
+         "title": true,
+         "description": "",
+         "dataTypeId": "string",
+         "dataTypeVariantId": "textbox",
+         "validators": {
+            "required": {
+               "enabled": true
+            },
+            "unique": {
+               "enabled": false
+            },
+            "maxLength": {
+               "enabled": true,
+               "max": 4096
+            },
+            "minLength": {
+               "enabled": false,
+               "min": 0
+            }
+         },
+         "settings": []
+      },
+      {
+         "fieldId": "url",
+         "name": "URL",
+         "title": false,
+         "description": "",
+         "dataTypeId": "string",
+         "dataTypeVariantId": "textbox",
+         "validators": {
+            "required": {
+               "enabled": false
+            },
+            "unique": {
+               "enabled": false
+            },
+            "maxLength": {
+               "enabled": true,
+               "max": 4096
+            },
+            "minLength": {
+               "enabled": false,
+               "min": 0
+            }
+         },
+         "settings": []
+      },
+      {
+         "fieldId": "page",
+         "name": "Page",
+         "title": false,
+         "description": "",
+         "dataTypeId": "reference",
+         "dataTypeVariantId": "reference",
+         "options": [],
+         "validators": {
+            "required": {
+               "enabled": false
+            }
+         },
+         "settings": [
+            {
+               "id": "contenttypes",
+               "value": [
+                  "page"
+               ]
+            },
+            {
+               "id": "create",
+               "value": false
+            }
+         ]
+      }
+   ],
+   "generateSlug": false,
+   "hidden": true,
+   "name": "Button",
+   "used": true
+}

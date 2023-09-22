@@ -1,0 +1,63 @@
+{
+   "contentTypeId": "menu",
+   "spaceId": "i9Ts255zwA2cgQgqEFETe2",
+   "creatorUserId": "f9434c2a-5125-4c10-afc5-ef782b4b5de0",
+   "enabled": true,
+   "fields": [
+      {
+         "fieldId": "name",
+         "name": "Name",
+         "title": true,
+         "description": "",
+         "dataTypeId": "string",
+         "dataTypeVariantId": "textbox",
+         "validators": {
+            "required": {
+               "enabled": true
+            },
+            "unique": {
+               "enabled": false
+            },
+            "maxLength": {
+               "enabled": true,
+               "max": 4096
+            },
+            "minLength": {
+               "enabled": false,
+               "min": 0
+            }
+         },
+         "settings": []
+      },
+      {
+         "fieldId": "buttons",
+         "name": "Buttons",
+         "title": false,
+         "description": "",
+         "dataTypeId": "referenceArray",
+         "dataTypeVariantId": "reference",
+         "options": [],
+         "validators": {
+            "required": {
+               "enabled": false
+            }
+         },
+         "settings": [
+            {
+               "id": "contenttypes",
+               "value": [
+                  "button"
+               ]
+            },
+            {
+               "id": "edit",
+               "value": true
+            }
+         ]
+      }
+   ],
+   "generateSlug": true,
+   "hidden": false,
+   "name": "Menu",
+   "used": true
+}

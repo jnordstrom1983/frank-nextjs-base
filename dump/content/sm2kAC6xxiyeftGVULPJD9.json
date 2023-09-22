@@ -1,0 +1,42 @@
+{
+   "content": {
+      "contentId": "sm2kAC6xxiyeftGVULPJD9",
+      "contentTypeId": "button",
+      "spaceId": "i9Ts255zwA2cgQgqEFETe2",
+      "createdUserId": "f9c5c74f-1811-43d6-bc97-3f0f182e940b",
+      "createdDate": "2023-09-20T16:32:10.894Z",
+      "modifiedUserId": "f9c5c74f-1811-43d6-bc97-3f0f182e940b",
+      "modifiedDate": "2023-09-20T16:32:48.231Z",
+      "status": "published",
+      "activeHistoryId": "ec3f490b-58d5-4275-8cf1-92abbd0f37ec",
+      "publishDate": "2023-09-20T16:32:48.418Z"
+   },
+   "contentData": [
+      {
+         "contentDataId": "d44d7811-54c8-46b0-9add-fe1dd1a3c53e",
+         "spaceId": "i9Ts255zwA2cgQgqEFETe2",
+         "contentId": "sm2kAC6xxiyeftGVULPJD9",
+         "contentTypeId": "button",
+         "languageId": "en",
+         "modifiedUserId": "f9c5c74f-1811-43d6-bc97-3f0f182e940b",
+         "modifiedDate": "2023-09-20T16:32:47.588Z",
+         "data": {
+            "text": "About",
+            "page": "cBgRTQdAe3HHLWqqMxvkrQ"
+         },
+         "referencedAssets": [],
+         "status": "published",
+         "publishDate": "2023-09-20T16:32:48.602Z"
+      }
+   ],
+   "historyItems": [
+      {
+         "historyId": "ec3f490b-58d5-4275-8cf1-92abbd0f37ec",
+         "date": "2023-09-20T16:32:25.048Z",
+         "userId": "f9c5c74f-1811-43d6-bc97-3f0f182e940b",
+         "revision": 1,
+         "changes": 2,
+         "userName": "Johan Julinder"
+      }
+   ]
+}

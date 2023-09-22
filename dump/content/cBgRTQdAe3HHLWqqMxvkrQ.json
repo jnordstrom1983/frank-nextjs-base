@@ -1,0 +1,46 @@
+{
+   "content": {
+      "contentId": "cBgRTQdAe3HHLWqqMxvkrQ",
+      "contentTypeId": "page",
+      "spaceId": "i9Ts255zwA2cgQgqEFETe2",
+      "createdUserId": "f9c5c74f-1811-43d6-bc97-3f0f182e940b",
+      "createdDate": "2023-09-20T16:31:12.663Z",
+      "modifiedUserId": "f9c5c74f-1811-43d6-bc97-3f0f182e940b",
+      "modifiedDate": "2023-09-20T16:31:56.540Z",
+      "status": "published",
+      "publishDate": "2023-09-20T16:31:56.728Z",
+      "activeHistoryId": "dfe7d5cd-0c20-4026-b7f9-a3c5e2de89b6"
+   },
+   "contentData": [
+      {
+         "contentDataId": "d493bb96-b429-4e37-aacf-47ddc37dafa0",
+         "spaceId": "i9Ts255zwA2cgQgqEFETe2",
+         "contentId": "cBgRTQdAe3HHLWqqMxvkrQ",
+         "contentTypeId": "page",
+         "languageId": "en",
+         "modifiedUserId": "f9c5c74f-1811-43d6-bc97-3f0f182e940b",
+         "modifiedDate": "2023-09-20T16:31:55.901Z",
+         "data": {
+            "name": "About",
+            "title": "About page",
+            "sections": [
+               "1aHfk2SGJD6q8y3zhNiAUV"
+            ]
+         },
+         "referencedAssets": [],
+         "status": "published",
+         "slug": "about",
+         "publishDate": "2023-09-20T16:31:56.911Z"
+      }
+   ],
+   "historyItems": [
+      {
+         "historyId": "dfe7d5cd-0c20-4026-b7f9-a3c5e2de89b6",
+         "date": "2023-09-20T16:31:57.817Z",
+         "userId": "f9c5c74f-1811-43d6-bc97-3f0f182e940b",
+         "revision": 1,
+         "changes": 3,
+         "userName": "Johan Julinder"
+      }
+   ]
+}

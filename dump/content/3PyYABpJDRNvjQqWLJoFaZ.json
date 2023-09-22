@@ -1,0 +1,58 @@
+{
+   "content": {
+      "contentId": "3PyYABpJDRNvjQqWLJoFaZ",
+      "contentTypeId": "button",
+      "spaceId": "i9Ts255zwA2cgQgqEFETe2",
+      "createdUserId": "f9c5c74f-1811-43d6-bc97-3f0f182e940b",
+      "createdDate": "2023-09-20T16:23:23.220Z",
+      "modifiedUserId": "f9c5c74f-1811-43d6-bc97-3f0f182e940b",
+      "modifiedDate": "2023-09-20T16:27:33.836Z",
+      "status": "published",
+      "publishDate": "2023-09-20T16:23:32.493Z",
+      "activeHistoryId": "c7a75202-ebec-4305-aab0-ed169ad27ab0"
+   },
+   "contentData": [
+      {
+         "contentDataId": "83f082d0-5006-42c5-b8c9-d9aed5a97d16",
+         "spaceId": "i9Ts255zwA2cgQgqEFETe2",
+         "contentId": "3PyYABpJDRNvjQqWLJoFaZ",
+         "contentTypeId": "button",
+         "languageId": "en",
+         "modifiedUserId": "f9c5c74f-1811-43d6-bc97-3f0f182e940b",
+         "modifiedDate": "2023-09-20T16:27:33.177Z",
+         "data": {
+            "text": "Start",
+            "url": "/"
+         },
+         "referencedAssets": [],
+         "status": "published",
+         "publishDate": "2023-09-20T16:23:32.682Z"
+      }
+   ],
+   "historyItems": [
+      {
+         "historyId": "c7a75202-ebec-4305-aab0-ed169ad27ab0",
+         "date": "2023-09-20T16:27:34.772Z",
+         "userId": "f9c5c74f-1811-43d6-bc97-3f0f182e940b",
+         "revision": 3,
+         "changes": 1,
+         "userName": "Johan Julinder"
+      },
+      {
+         "historyId": "2fa00b73-8912-474f-ba6e-0eac737dfc58",
+         "date": "2023-09-20T16:26:53.337Z",
+         "userId": "f9c5c74f-1811-43d6-bc97-3f0f182e940b",
+         "revision": 2,
+         "changes": 1,
+         "userName": "Johan Julinder"
+      },
+      {
+         "historyId": "454c963a-ded9-4c9b-a1b8-384c4f7f0580",
+         "date": "2023-09-20T16:23:33.614Z",
+         "userId": "f9c5c74f-1811-43d6-bc97-3f0f182e940b",
+         "revision": 1,
+         "changes": 2,
+         "userName": "Johan Julinder"
+      }
+   ]
+}

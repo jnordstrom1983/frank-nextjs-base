@@ -1,0 +1,89 @@
+{
+   "contentTypeId": "page",
+   "spaceId": "i9Ts255zwA2cgQgqEFETe2",
+   "creatorUserId": "f9434c2a-5125-4c10-afc5-ef782b4b5de0",
+   "enabled": true,
+   "fields": [
+      {
+         "fieldId": "name",
+         "name": "Name",
+         "title": true,
+         "description": "",
+         "dataTypeId": "string",
+         "dataTypeVariantId": "textbox",
+         "validators": {
+            "required": {
+               "enabled": true
+            },
+            "unique": {
+               "enabled": false
+            },
+            "maxLength": {
+               "enabled": true,
+               "max": 4096
+            },
+            "minLength": {
+               "enabled": false,
+               "min": 0
+            }
+         },
+         "settings": []
+      },
+      {
+         "fieldId": "title",
+         "name": "Title",
+         "title": false,
+         "description": "",
+         "dataTypeId": "string",
+         "dataTypeVariantId": "textbox",
+         "validators": {
+            "required": {
+               "enabled": false
+            },
+            "unique": {
+               "enabled": false
+            },
+            "maxLength": {
+               "enabled": true,
+               "max": 4096
+            },
+            "minLength": {
+               "enabled": false,
+               "min": 0
+            }
+         },
+         "settings": []
+      },
+      {
+         "fieldId": "sections",
+         "name": "Sections",
+         "title": false,
+         "description": "",
+         "dataTypeId": "referenceArray",
+         "dataTypeVariantId": "reference",
+         "options": [],
+         "validators": {
+            "required": {
+               "enabled": false
+            }
+         },
+         "settings": [
+            {
+               "id": "edit",
+               "value": true
+            },
+            {
+               "id": "contenttypes",
+               "value": [
+                  "oneColumnSection",
+                  "twoColumnSection"
+               ]
+            }
+         ]
+      }
+   ],
+   "generateSlug": true,
+   "hidden": false,
+   "name": "Page",
+   "used": true
+}

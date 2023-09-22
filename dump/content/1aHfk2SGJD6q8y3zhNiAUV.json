@@ -1,0 +1,58 @@
+{
+   "content": {
+      "contentId": "1aHfk2SGJD6q8y3zhNiAUV",
+      "contentTypeId": "twoColumnSection",
+      "spaceId": "i9Ts255zwA2cgQgqEFETe2",
+      "createdUserId": "f9c5c74f-1811-43d6-bc97-3f0f182e940b",
+      "createdDate": "2023-09-20T16:31:21.955Z",
+      "modifiedUserId": "f9c5c74f-1811-43d6-bc97-3f0f182e940b",
+      "modifiedDate": "2023-09-20T16:31:50.207Z",
+      "status": "published",
+      "publishDate": "2023-09-20T16:31:50.393Z",
+      "activeHistoryId": "9d50378d-e4b2-497d-9c9f-b9e681106c38"
+   },
+   "contentData": [
+      {
+         "contentDataId": "58d88990-487e-4f8b-b543-6162eaa1412f",
+         "spaceId": "i9Ts255zwA2cgQgqEFETe2",
+         "contentId": "1aHfk2SGJD6q8y3zhNiAUV",
+         "contentTypeId": "twoColumnSection",
+         "languageId": "en",
+         "modifiedUserId": "f9c5c74f-1811-43d6-bc97-3f0f182e940b",
+         "modifiedDate": "2023-09-20T16:31:49.731Z",
+         "data": {
+            "showHeadline": "no",
+            "name": "Two column section",
+            "left": [
+               {
+                  "id": "5qjpgFuTCSUAFbU5o2nNZ1",
+                  "type": "paragraph",
+                  "variant": "normal",
+                  "data": "This is a two column section"
+               }
+            ],
+            "right": [
+               {
+                  "id": "x1333xfgKa5KAJYTpvXCuh",
+                  "type": "paragraph",
+                  "variant": "normal",
+                  "data": "Second column"
+               }
+            ]
+         },
+         "referencedAssets": [],
+         "status": "published",
+         "publishDate": "2023-09-20T16:31:50.575Z"
+      }
+   ],
+   "historyItems": [
+      {
+         "historyId": "9d50378d-e4b2-497d-9c9f-b9e681106c38",
+         "date": "2023-09-20T16:31:51.479Z",
+         "userId": "f9c5c74f-1811-43d6-bc97-3f0f182e940b",
+         "revision": 1,
+         "changes": 4,
+         "userName": "Johan Julinder"
+      }
+   ]
+}

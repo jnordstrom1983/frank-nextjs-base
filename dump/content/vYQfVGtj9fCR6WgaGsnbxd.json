@@ -1,0 +1,79 @@
+{
+   "content": {
+      "contentId": "vYQfVGtj9fCR6WgaGsnbxd",
+      "contentTypeId": "oneColumnSection",
+      "spaceId": "i9Ts255zwA2cgQgqEFETe2",
+      "createdUserId": "f9c5c74f-1811-43d6-bc97-3f0f182e940b",
+      "createdDate": "2023-09-20T16:12:48.472Z",
+      "modifiedUserId": "f9c5c74f-1811-43d6-bc97-3f0f182e940b",
+      "modifiedDate": "2023-09-20T16:26:37.939Z",
+      "status": "published",
+      "publishDate": "2023-09-20T16:13:40.125Z",
+      "activeHistoryId": "74b2806d-5410-480f-a9b4-1a1e1ea727d1"
+   },
+   "contentData": [
+      {
+         "contentDataId": "510517bf-2cf6-4160-9d59-abab8e634bf6",
+         "spaceId": "i9Ts255zwA2cgQgqEFETe2",
+         "contentId": "vYQfVGtj9fCR6WgaGsnbxd",
+         "contentTypeId": "oneColumnSection",
+         "languageId": "en",
+         "modifiedUserId": "f9c5c74f-1811-43d6-bc97-3f0f182e940b",
+         "modifiedDate": "2023-09-20T16:26:37.258Z",
+         "data": {
+            "name": "Welcome",
+            "content": [
+               {
+                  "id": "uUSzd1bsVWksKFLZYKsAxN",
+                  "type": "heading",
+                  "variant": "large",
+                  "data": "Welcome to the NextJS Base Project"
+               },
+               {
+                  "id": "f2hK8SBW8QD1qa8eXa579o",
+                  "type": "paragraph",
+                  "variant": "normal",
+                  "data": "This is a one column section"
+               }
+            ]
+         },
+         "referencedAssets": [],
+         "status": "published",
+         "publishDate": "2023-09-20T16:13:40.311Z"
+      }
+   ],
+   "historyItems": [
+      {
+         "historyId": "74b2806d-5410-480f-a9b4-1a1e1ea727d1",
+         "date": "2023-09-20T16:26:38.909Z",
+         "userId": "f9c5c74f-1811-43d6-bc97-3f0f182e940b",
+         "revision": 4,
+         "changes": 1,
+         "userName": "Johan Julinder"
+      },
+      {
+         "historyId": "e4c2628a-669b-4d8d-8705-e32b3b67cbde",
+         "date": "2023-09-20T16:26:19.796Z",
+         "userId": "f9c5c74f-1811-43d6-bc97-3f0f182e940b",
+         "revision": 3,
+         "changes": 1,
+         "userName": "Johan Julinder"
+      },
+      {
+         "historyId": "d4757d8c-4a97-4fd6-aafc-6ff9027ee230",
+         "date": "2023-09-20T16:18:24.193Z",
+         "userId": "f9c5c74f-1811-43d6-bc97-3f0f182e940b",
+         "revision": 2,
+         "changes": 1,
+         "userName": "Johan Julinder"
+      },
+      {
+         "historyId": "88baec63-7e99-4181-9717-42f73b053129",
+         "date": "2023-09-20T16:13:41.231Z",
+         "userId": "f9c5c74f-1811-43d6-bc97-3f0f182e940b",
+         "revision": 1,
+         "changes": 2,
+         "userName": "Johan Julinder"
+      }
+   ]
+}
