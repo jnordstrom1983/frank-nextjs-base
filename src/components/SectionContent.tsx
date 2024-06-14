@@ -1,4 +1,3 @@
-"use client"
 import { OneColumnSection } from "@/sections/OneColum"
 import { TwoColumnSection } from "@/sections/TwoColumn"
 import { FrankContentItem, Franklanguage } from "frank-react-sdk"

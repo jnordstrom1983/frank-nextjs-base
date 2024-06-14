@@ -1,6 +1,6 @@
 import { Container } from "@/components/Container"
 import { Menu } from "@/components/Menu"
-import StyledComponentsRegistry from "@/lib/registry"
+
 import { FrankClient, FrankRequestOptions, Franklanguage } from "frank-react-sdk"
 import { Poppins } from "next/font/google"
 import "./globals.css"
@@ -16,9 +16,7 @@ export default async function RootLayout({ children, params }: { children: React
         return (
             <html lang="en">
                 <body className={popins.className}>
-                    <StyledComponentsRegistry>
                          {children}
-                    </StyledComponentsRegistry>
                 </body>
             </html>
         )
@@ -33,11 +31,11 @@ export default async function RootLayout({ children, params }: { children: React
     return (
         <html lang="en">
             <body className={popins.className}>
-                <StyledComponentsRegistry>
+                
                     {menuItem && <Menu item={menuItem}></Menu>}
 
                     <Container>{children}</Container>
-                </StyledComponentsRegistry>
+                
             </body>
         </html>
     )

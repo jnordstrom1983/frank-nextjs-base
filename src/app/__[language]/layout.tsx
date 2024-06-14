@@ -1,7 +1,7 @@
 import { Container } from "@/components/Container"
 import { Menu } from "@/components/Menu"
-import StyledComponentsRegistry from "@/lib/registry"
-import { FrankClient, FrankRequestOptions, Franklanguage } from "frank-react-sdk"
+
+import { FrankClient, Franklanguage } from "frank-react-sdk"
 import { Poppins } from "next/font/google"
 import "../globals.css"
 import { revalidateTag } from "next/cache"

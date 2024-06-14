@@ -1,7 +1,4 @@
-"use client"
-
 import { FrankContentItem, Franklanguage } from 'frank-react-sdk'
-import styled from 'styled-components'
 
 interface MenuDataFormat{
     name : string,
@@ -18,49 +15,19 @@ interface ButtonDataFormat{
 
 export function Menu({item, language} : { item : FrankContentItem, language? : Franklanguage}){
     const data = item.data as MenuDataFormat;
-    return <Menubar>
-        <nav>
-            <ul>
+    return <div className='bg-[#f0f0f0] sticky left-0 right-0 top-0 mb-10 z-50'>
+        <nav className='p-5 max-w-[1100px] m-auto flex'>
+            <ul className='list-none m-0 p-0 flex gap-20'>
             {data.buttons.map(b=>{
                 const data = b.data as ButtonDataFormat
                 
                 const url = data.page ? `${language ? `${language}/${data.page.slug}` : data.page.slug}` : data.url
-                return <li key={b.contentId}><a href={url}>{data.text}</a></li>
+                return <li key={b.contentId}><a href={url} className="text-[#4A7BA6] no-underline">{data.text}</a></li>
 
             })}
             </ul>
         </nav>
-    </Menubar>
+    </div>
 }
-
-
-const Menubar = styled.div`
-    background-color:#F0F0F0;
-    position: sticky;
-    left:0px;
-    right:0px;
-    top:0px;
-    margin-bottom:30px;
-    z-index:100;
-
-    nav{
-        padding:20px;
-        max-width : 1100px;
-        margin: auto;
-        display:flex;
-        
-        ul{
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            display:flex;
-            gap : 50px;
-        }
-        a{
-            color: #4A7BA6;
-            text-decoration:none;
-        }    
-    }
-`
 
 

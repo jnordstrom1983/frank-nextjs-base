@@ -1,8 +1,3 @@
-"use client"
-
-import styled from 'styled-components'
-
-export const Container = styled.div`
-    max-width : 1100px;
-    margin: auto
-`
+export const Container = function({children} : {children : React.ReactNode}){
+    return <div className='max-w-[1000px] m-auto'>{children}</div>
+}
